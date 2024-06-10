@@ -1,0 +1,13 @@
+spring.application.name: memeber-service
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/my_db?useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: "user"
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
